@@ -1,0 +1,45 @@
+/*
+	Easy to modify css file. File used to Gallery.
+	
+	Author: Dominik Nowak
+	E-mail: dominik.nowak.92@gmail.com
+	
+	Licence: GNU
+*/
+
+.gallery-box{
+	width: 100%;
+	text-align: center;
+}
+
+.current-img{
+	display: table;
+	margin-bottom: 15px;
+}
+.current-img a, .current-img img{
+	display: table-cell;
+    vertical-align: middle;
+}
+.current-img a{
+	width: 8%;
+}
+
+.arrow{
+	width: 80%;
+	vertical-align: middle;
+	margin: 0px 10%;
+}
+
+#curr{
+	width: 100%;
+}
+
+.rest-of-imgs{
+	margin: auto;
+	width: 80%;
+}
+
+.rest-of-imgs img{
+	height: 80px;
+	margin: 0px 1%;
+}

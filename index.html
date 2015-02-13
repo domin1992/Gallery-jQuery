@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gallery JS</title>
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- Including jQuery library -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+	</head>
+	<body>
+		<div class="gallery-box">
+			<!-- main img view -->
+			<div class="current-img">
+				<!-- left arrow -->
+				<a class="left" href="javascript:void(0)"><img class="arrow arrow-left" src="img/arrow-left-grey.png" /></a>
+				<!-- actual shown image -->
+				<img id="curr" src="img/photo1.jpg" />
+				<!-- right arrow -->
+				<a class="right" href="javascript:void(0)"><img class="arrow arrow-right" src="img/arrow-right-grey.png" /></a>
+			</div>
+			<div class="rest-of-imgs">
+				<!-- #minature is saying that you want to include this photo into gallery, and you
+					want it to show bigger 
+					numbers in image's id are present order of showing images -->
+				<a id="minature" href="javascript:void(0)"><img id="0" src="img/photo1.jpg" /></a>
+				<a id="minature" href="javascript:void(0)"><img id="1" src="img/photo2.png" /></a>
+				<a id="minature" href="javascript:void(0)"><img id="2" src="img/photo3.jpg" /></a>
+				<a id="minature" href="javascript:void(0)"><img id="3" src="img/photo4.jpg" /></a>
+				<a id="minature" href="javascript:void(0)"><img id="4" src="img/photo5.jpg" /></a>
+				<a id="minature" href="javascript:void(0)"><img id="5" src="img/photo6.jpg" /></a>
+			</div>
+		</div>
+		<!-- Including js file with main script -->
+		<script src="js/gallery.js"></script>
+	</body>
+</html>
